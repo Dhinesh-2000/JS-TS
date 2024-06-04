@@ -6,3 +6,10 @@ let emp={
 }
 
 console.log(emp);
+
+//how to access object properties
+
+console.log(emp.id);
+console.log(emp.name);
+console.log(emp.sal);
+console.log(emp.loc);
