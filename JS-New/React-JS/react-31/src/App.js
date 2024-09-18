@@ -1,13 +1,10 @@
-import Message from "./Message"
-let App=()=>{
+import React from "react"
+class App extends React.Component{
+    render(){
     return <div>
-        <h2>Welcome to react world</h2>
-        <hr />
-        <Message/>
-        <Message/>
-        <Message/>
-        <Message/>
+        <h1>App Component!</h1>
     </div>
+    }
 }
 
 export default App
