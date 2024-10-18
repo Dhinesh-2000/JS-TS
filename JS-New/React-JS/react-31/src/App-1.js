@@ -3,7 +3,10 @@ import Navbar from './Navbar/Navbar'
 import Message from "./Message/Message"
 let App=()=>{
     return <div>
-        <Navbar/>
+        <h1>App Component</h1>
+        <hr />
+        {/*<Message/> */}
+        <button className='btn btn-warning'>Test</button>
         
         
       
