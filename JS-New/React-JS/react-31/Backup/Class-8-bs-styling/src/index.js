@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom'
 //import './static/bs/bootstrap.css'
 import App from './App'
 
