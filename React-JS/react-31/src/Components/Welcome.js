@@ -5,7 +5,7 @@ class Welcome extends React.Component{
         return <div>
             <h2>Class Component</h2>
             <hr/>
-            <h1>Hey Welcome to react!</h1>
+            <h1>Hey Welcome {this.props.name} a k a {this.props.surname}</h1>
        
         
         </div>
