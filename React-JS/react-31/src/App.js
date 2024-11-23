@@ -10,6 +10,9 @@ import EventBind from "./Components/EventBind"
 import ParentComponent from "./Components/ParentComponent"
 import UserGreeting from "./Components/UserGreeting"
 import NameList from "./Components/NameList"
+import Stylesheet from "./Components/Stylesheet"
+import Form from "./Components/Form"
+//import Inline from "./Components/Inline"
 
 class App extends Component{
   render(){
@@ -34,7 +37,11 @@ class App extends Component{
     {/* <EventBind/> */}
     {/* <ParentComponent/> */}
     {/* <UserGreeting/> */}
-    <NameList/>
+    {/* <NameList/> */}
+    {/* <Stylesheet primary={true}/> */}
+    {/* <Inline/> */}
+    <Form/>
+
     
   </div>)
   }
