@@ -12,6 +12,7 @@ import UserGreeting from "./Components/UserGreeting"
 import NameList from "./Components/NameList"
 import Stylesheet from "./Components/Stylesheet"
 import Form from "./Components/Form"
+import LifecycleA from "./Components/LifecycleA"
 //import Inline from "./Components/Inline"
 
 class App extends Component{
@@ -40,7 +41,8 @@ class App extends Component{
     {/* <NameList/> */}
     {/* <Stylesheet primary={true}/> */}
     {/* <Inline/> */}
-    <Form/>
+    {/* <Form/> */}
+    <LifecycleA/>
 
     
   </div>)
