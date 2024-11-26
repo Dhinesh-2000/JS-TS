@@ -13,6 +13,8 @@ import NameList from "./Components/NameList"
 import Stylesheet from "./Components/Stylesheet"
 import Form from "./Components/Form"
 import LifecycleA from "./Components/LifecycleA"
+import FragmentDemo from "./Components/FragmentDemo"
+import Table from "./Components/Table"
 //import Inline from "./Components/Inline"
 
 class App extends Component{
@@ -42,7 +44,9 @@ class App extends Component{
     {/* <Stylesheet primary={true}/> */}
     {/* <Inline/> */}
     {/* <Form/> */}
-    <LifecycleA/>
+    {/* <LifecycleA/> */}
+    {/* <FragmentDemo/> */}
+    <Table/>
 
     
   </div>)
