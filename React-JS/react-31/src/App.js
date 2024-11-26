@@ -15,6 +15,11 @@ import Form from "./Components/Form"
 import LifecycleA from "./Components/LifecycleA"
 import FragmentDemo from "./Components/FragmentDemo"
 import Table from "./Components/Table"
+import PureComp from "./Components/PureComp"
+import ParentComp from "./Components/ParentComp"
+import RefsDemo from "./Components/RefsDemo"
+import FocusInput from "./Components/FocusInput"
+import FRParentInput from "./Components/FRParentInput"
 //import Inline from "./Components/Inline"
 
 class App extends Component{
@@ -46,7 +51,12 @@ class App extends Component{
     {/* <Form/> */}
     {/* <LifecycleA/> */}
     {/* <FragmentDemo/> */}
-    <Table/>
+    {/* <Table/> */}
+    {/* <PureComp/> */}
+    {/* <ParentComp/> */}
+    {/* <RefsDemo/> */}
+    {/* <FocusInput/> */}
+    <FRParentInput/>
 
     
   </div>)
