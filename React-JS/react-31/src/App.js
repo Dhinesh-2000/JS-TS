@@ -20,6 +20,9 @@ import ParentComp from "./Components/ParentComp"
 import RefsDemo from "./Components/RefsDemo"
 import FocusInput from "./Components/FocusInput"
 import FRParentInput from "./Components/FRParentInput"
+import PortalDemo from "./Components/PortalDemo"
+import Hero from "./Components/Hero"
+import ErrorBoundary from "./Components/ErrorBoundary"
 //import Inline from "./Components/Inline"
 
 class App extends Component{
@@ -56,7 +59,18 @@ class App extends Component{
     {/* <ParentComp/> */}
     {/* <RefsDemo/> */}
     {/* <FocusInput/> */}
-    <FRParentInput/>
+    {/* <FRParentInput/> */}
+    {/* <PortalDemo/> */}
+    <ErrorBoundary>
+     <Hero heroName="Batman"/>
+     </ErrorBoundary>
+     <ErrorBoundary>
+     <Hero heroName="Superman"/>
+     </ErrorBoundary>
+     <ErrorBoundary>
+     <Hero heroName="Joker"/>
+    </ErrorBoundary>
+    
 
     
   </div>)
