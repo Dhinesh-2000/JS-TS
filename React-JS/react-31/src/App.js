@@ -25,6 +25,8 @@ import Hero from "./Components/Hero"
 import ErrorBoundary from "./Components/ErrorBoundary"
 import ClickCounter from "./Components/ClickCounter"
 import HoverCounter from "./Components/HoverCounter"
+import ClickCounterTwo from "./Components/ClickCounterTwo"
+import HoverCounterTwo from "./Components/HoverCounterTwo"
 //import Inline from "./Components/Inline"
 
 class App extends Component{
@@ -72,9 +74,10 @@ class App extends Component{
      <ErrorBoundary>
      <Hero heroName="Joker"/>
     </ErrorBoundary> */}
-    <ClickCounter/>
-    <HoverCounter/>
-
+    {/* <ClickCounter/>
+    <HoverCounter/> */}
+     <ClickCounterTwo/>
+     <HoverCounterTwo/>
     
   </div>)
   }
