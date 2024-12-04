@@ -31,6 +31,8 @@ import User from "./Components/User"
 import Counter1 from "./Components/Counter1"
 import ComponentC from "./Components/ComponentC"
 import { UserProvider } from "./Components/userContext"
+import PostList from "./Components/PostList"
+import PostForm from "./Components/PostForm"
 //import Inline from "./Components/Inline"
 
 class App extends Component{
@@ -93,9 +95,13 @@ class App extends Component{
        <HoverCounterTwo count={count} incrementCount={incrementCount}/>
       )}
      </Counter1> */}
-     <UserProvider value="Dhinesh">
+     {/* <UserProvider value="Dhinesh">
        <ComponentC/>
-     </UserProvider>
+     </UserProvider> */}
+
+     {/* <PostList/> */}
+     <PostForm/>
+
 
   </div>)
   }
