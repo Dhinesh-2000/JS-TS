@@ -27,6 +27,10 @@ import ClickCounter from "./Components/ClickCounter"
 import HoverCounter from "./Components/HoverCounter"
 import ClickCounterTwo from "./Components/ClickCounterTwo"
 import HoverCounterTwo from "./Components/HoverCounterTwo"
+import User from "./Components/User"
+import Counter1 from "./Components/Counter1"
+import ComponentC from "./Components/ComponentC"
+import { UserProvider } from "./Components/userContext"
 //import Inline from "./Components/Inline"
 
 class App extends Component{
@@ -76,9 +80,23 @@ class App extends Component{
     </ErrorBoundary> */}
     {/* <ClickCounter/>
     <HoverCounter/> */}
-     <ClickCounterTwo/>
+     {/* <ClickCounterTwo/>
      <HoverCounterTwo/>
-    
+     <User render={(isLoggedIn)=>isLoggedIn?'Dhinesh':'Guest'}/> */}
+     {/* <Counter1>
+      {(count,incrementCount)=>(
+      <ClickCounterTwo count={count} incrementCount={incrementCount}/>
+      )}
+      </Counter1>
+      <Counter1>
+      {(count,incrementCount)=>(
+       <HoverCounterTwo count={count} incrementCount={incrementCount}/>
+      )}
+     </Counter1> */}
+     <UserProvider value="Dhinesh">
+       <ComponentC/>
+     </UserProvider>
+
   </div>)
   }
 }
