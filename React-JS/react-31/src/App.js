@@ -33,6 +33,9 @@ import ComponentC from "./Components/ComponentC"
 import { UserProvider } from "./Components/userContext"
 import PostList from "./Components/PostList"
 import PostForm from "./Components/PostForm"
+import ClassCounter from "./Components/ClassCounter"
+import HookCounter from "./Components/HookCounter"
+import HookCounterTwo from "./Components/HookCounterTwo"
 //import Inline from "./Components/Inline"
 
 class App extends Component{
@@ -100,7 +103,10 @@ class App extends Component{
      </UserProvider> */}
 
      {/* <PostList/> */}
-     <PostForm/>
+     {/* <PostForm/> */}
+     {/* <ClassCounter/> */}
+     {/* <HookCounter/> */}
+     <HookCounterTwo/>
 
 
   </div>)
