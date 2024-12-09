@@ -36,6 +36,15 @@ import PostForm from "./Components/PostForm"
 import ClassCounter from "./Components/ClassCounter"
 import HookCounter from "./Components/HookCounter"
 import HookCounterTwo from "./Components/HookCounterTwo"
+import HookCounterThree from "./Components/HookCounterThree"
+import HookCounterFour from "./Components/HookCounterFour"
+import ClassCounterOne from "./Components/ClassCounterOne"
+import HookCounterOne from "./Components/HookCounterOne"
+import ClassMouse from "./Components/ClassMouse"
+import HookMouse from "./Components/HookMouse"
+import MouseContainer from "./Components/MouseContainer"
+import IntervalClassCounter from "./Components/IntervalClassCounter"
+import IntervalHookCounter from "./Components/IntervalHookCounter"
 //import Inline from "./Components/Inline"
 
 class App extends Component{
@@ -106,7 +115,16 @@ class App extends Component{
      {/* <PostForm/> */}
      {/* <ClassCounter/> */}
      {/* <HookCounter/> */}
-     <HookCounterTwo/>
+     {/* <HookCounterTwo/> */}
+     {/* <HookCounterThree/> */}
+     {/* <HookCounterFour/> */}
+     {/* <ClassCounterOne/> */}
+     {/* <HookCounterOne/> */}
+     {/* <ClassMouse/> */}
+     {/* <HookMouse/> */}
+     {/* <MouseContainer/> */}
+     <IntervalClassCounter/>
+     <IntervalHookCounter/>
 
 
   </div>)
