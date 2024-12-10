@@ -1,9 +1,13 @@
-import React, { Component } from 'react'
+import React from 'react'
 import ComponentE from './ComponentE'
- class ComponentC extends Component {
-  render() {
-    return <ComponentE/>
-  }
+
+function ComponentC() {
+  return (
+    <div>
+     <ComponentE/>
+    </div>
+  )
 }
+
 
 export default ComponentC
