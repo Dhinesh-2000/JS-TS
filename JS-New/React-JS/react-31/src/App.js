@@ -9,9 +9,9 @@ let App=()=>{
         {/* <Users/> */}
         {/* <Employee/> */}
        {/* <Navbar/> */}
-       {/* <Message/> */}
-       <Navbar/>
-       <Product/>
+       <Message/>
+       {/* <Navbar/>
+       <Product/> */}
         
         
       
