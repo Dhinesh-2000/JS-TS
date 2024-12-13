@@ -1,20 +1,25 @@
-import React, { useState } from 'react'
+import React, { Component } from 'react'
 
-let Message = () => {
-  let [msg,setMsg]=useState("Hello")
-  let gmHandler=()=>{
-    setMsg("Good Morning")
+class Message extends Component {
+  state={
+    msg:"Hello"
   }
-  let gnHandler=()=>{
-    setMsg("Good Night")
+    gmHandler=()=>{
+    this.setState("Good Morning")
   }
-  return (
-    <div>
-      <h2>Message value:{msg}</h2>
-      <button onClick={gmHandler}>GM</button>
-      <button onClick={gnHandler}>GN</button>
-    </div>
-  )
+    gnHandler=()=>{
+    this.setState({msg:this.state.msg("Good Night")})
+  }
+  
+  render() {
+    return (
+      <div>
+        <h2>value:{this.state.msg}</h2>
+        <button onClick={this.gmHandler}>GM</button>
+        <button onClick={this.gnHandler}>GN</button>
+      </div>
+    )
+  }
 }
 
 export default Message
