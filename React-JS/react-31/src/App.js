@@ -7,6 +7,9 @@ import ComponentA from './Component/ComponentA'
 import ComponentB from './Component/ComponentB'
 import DataFetchingOne from './Components/DataFetchingOne'
 import DataFetchingTwo from './Components/DataFetchingTwo'
+import ParentComponent from './CallBack/ParentComponent'
+import Countermemo from './Components/Countermemo'
+import FocusInput from './Components/FocusInput'
 export const UserContext = React.createContext()
 export const ChannelContext=React.createContext()
 
@@ -46,7 +49,10 @@ function App() {
       <ComponentB/>
       <ComponentC/> */}
       {/* <DataFetchingOne/> */}
-      <DataFetchingTwo/>
+      {/* <DataFetchingTwo/> */}
+      {/* <ParentComponent/> */}
+      {/* <Countermemo/> */}
+      <FocusInput/>
      
     </div>
     // </CountContext.Provider>
