@@ -3,7 +3,7 @@ import Message from './Component/Message'
 import Product from './Component/Product'
 import Navbar from './Component/Navbar'
 import Employee from './User/Employee'
-import Users from './User/Users'
+import Users from './Users/Users'
 import ComponentA from './PD/ComponentA'
 let App=()=>{
     return <div>
@@ -13,7 +13,8 @@ let App=()=>{
        {/* <Message/> */}
        {/* <Navbar/>*/}
        {/* <Product/>  */}
-        <ComponentA/>
+        {/* <ComponentA/> */}
+        <Users/>
         
       
         
