@@ -1,7 +1,7 @@
 import React,{useReducer} from 'react'
 import ComponentC from './Components/ComponentC'
-import CounterOne from './Components/CounterOne'
-import CounterTwo from './Components/CounterTwo'
+//import CounterOne from './Components/CounterOne'
+//import CounterTwo from './Components/CounterTwo'
 import CounterThree from './Components/CounterThree'
 import ComponentA from './Component/ComponentA'
 import ComponentB from './Component/ComponentB'
@@ -10,6 +10,12 @@ import DataFetchingTwo from './Components/DataFetchingTwo'
 import ParentComponent from './CallBack/ParentComponent'
 import Countermemo from './Components/Countermemo'
 import FocusInput from './Components/FocusInput'
+import ClassTimer from './Components/ClassTimer'
+import HookTimer from './Components/HookTimer'
+import DocTitleOne from './Custom-Hooks/DocTitleOne'
+import DocTitleTwo from './Custom-Hooks/DocTitleTwo'
+import CounterOne from './Custom-Hooks/CounterOne'
+import CounterTwo from './Custom-Hooks/CounterTwo'
 export const UserContext = React.createContext()
 export const ChannelContext=React.createContext()
 
@@ -52,7 +58,13 @@ function App() {
       {/* <DataFetchingTwo/> */}
       {/* <ParentComponent/> */}
       {/* <Countermemo/> */}
-      <FocusInput/>
+      {/* <FocusInput/> */}
+      {/* <ClassTimer/>
+      <HookTimer/> */}
+      {/* <DocTitleOne/>
+      <DocTitleTwo/> */}
+      <CounterOne/>
+      <CounterTwo/>
      
     </div>
     // </CountContext.Provider>
