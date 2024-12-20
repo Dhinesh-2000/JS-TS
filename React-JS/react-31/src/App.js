@@ -16,6 +16,7 @@ import DocTitleOne from './Custom-Hooks/DocTitleOne'
 import DocTitleTwo from './Custom-Hooks/DocTitleTwo'
 import CounterOne from './Custom-Hooks/CounterOne'
 import CounterTwo from './Custom-Hooks/CounterTwo'
+import UserForm from './Custom-Hooks/UserForm'
 export const UserContext = React.createContext()
 export const ChannelContext=React.createContext()
 
@@ -63,8 +64,9 @@ function App() {
       <HookTimer/> */}
       {/* <DocTitleOne/>
       <DocTitleTwo/> */}
-      <CounterOne/>
-      <CounterTwo/>
+      {/* <CounterOne/>
+      <CounterTwo/> */}
+      <UserForm/>
      
     </div>
     // </CountContext.Provider>
