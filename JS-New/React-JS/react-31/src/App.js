@@ -6,6 +6,7 @@ import Employee from './User/Employee'
 import Users from './Users/Users'
 import ComponentA from './PD/ComponentA'
 import Login from './FormHandling/Login'
+import Registration from './Registration/Registration'
 let App=()=>{
     return <div>
         {/* <Users/> */}
@@ -16,7 +17,8 @@ let App=()=>{
        {/* <Product/>  */}
         {/* <ComponentA/> */}
         {/* <Users/> */}
-        <Login/>
+        {/* <Login/> */}
+        <Registration/>
         
       
         
