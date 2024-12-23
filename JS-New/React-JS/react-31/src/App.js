@@ -1,28 +1,21 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
-import Message from './Component/Message'
-import Product from './Component/Product'
-import Navbar from './Component/Navbar'
-import Employee from './User/Employee'
-import Users from './Users/Users'
-import ComponentA from './PD/ComponentA'
-import Login from './FormHandling/Login'
-import Registration from './Registration/Registration'
+import React from 'react'
+import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
+import Navbar from './Components/Navbar'
+import Home from './Components/Home'
+import Contact from './Contacts/Contact'
 let App=()=>{
-    return <div>
-        {/* <Users/> */}
-        {/* <Employee/> */}
-       {/* <Navbar/> */}
-       {/* <Message/> */}
-       {/* <Navbar/>*/}
-       {/* <Product/>  */}
-        {/* <ComponentA/> */}
-        {/* <Users/> */}
-        {/* <Login/> */}
-        <Registration/>
-        
-      
-        
-        
-    </div>
+    return <React.Fragment>
+        <Router>
+         <Navbar/> 
+         <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/index" element={<Home/>}/>
+            <Route path="/contact" element={<Contact/>}/>
+        </Routes>  
+       </Router>
+
+
+    </React.Fragment>    
 }
 export default App
