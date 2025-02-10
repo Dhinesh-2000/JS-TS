@@ -1,21 +1,22 @@
-import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import React from 'react'
-import {BrowserRouter as Router,Route,Routes} from 'react-router-dom'
-import Navbar from './Components/Navbar'
-import Home from './Components/Home'
-import Contact from './Contacts/Contact'
-let App=()=>{
-    return <React.Fragment>
-        <Router>
-         <Navbar/> 
-         <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/index" element={<Home/>}/>
-            <Route path="/contact" element={<Contact/>}/>
-        </Routes>  
-       </Router>
+import Message from './Message/Message'
+import { Provider } from 'react-redux'
+import { store } from './redux/store'
+import Product from './Product/Product'
+import Notification from './Components/Notification'
 
-
-    </React.Fragment>    
+const App = () => {
+  return (
+    <div>
+      {/* <Provider store={store}>
+        <h2>App Component</h2>
+      <Message/>
+      <hr/>
+      <Product/>
+      </Provider> */}
+      <Notification type='success' message={"new notification"}/>
+    </div>
+  )
 }
+
 export default App
