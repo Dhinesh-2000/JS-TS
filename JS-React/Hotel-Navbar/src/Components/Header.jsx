@@ -14,7 +14,7 @@ const Header=()=> {
     <header className='
     flex items-center justify-between px-4 md:px-10 h-20
     relative bg-black text-white'>
-    <Logo/>
+    {/* <Logo/> */}
     <Navbar 
     isOpen={isOpen}
     toggleMenu={toggleMenu}/>

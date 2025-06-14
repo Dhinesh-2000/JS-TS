@@ -1,5 +1,7 @@
 import React from 'react'
-import CustomerAdd from './CustomerAdd'
+
+
+import Navbar from './common/Navbar'
 
 
 function App() {
@@ -7,8 +9,7 @@ function App() {
   return (
     
      <div>
-      <h1>React Redux Customer Example</h1>
-        <CustomerAdd/>    
+      <Navbar/>
     </div>
     
     
